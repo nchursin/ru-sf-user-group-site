@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-// import Image from "../components/image"
+import Calendar from "../components/calendar"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -10,10 +10,10 @@ const IndexPage = () => (
 
     <SEO title="Home" />
     <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
+    <p>Salesforce.by проведет вебинар “Process automation using Salesforce Flow”.</p>
     <p>Now go build something great.</p>
 
-    <div data-tockify-calendar="nchursintest" data-tockify-component="calendar" data-tockify-view="monthly"></div>
+    <Calendar/>
 
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />

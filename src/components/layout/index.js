@@ -1,3 +1,3 @@
-import * as layout from './layout';
+import Layout from './layout';
 
-export const Layout = layout;
+export default Layout;
