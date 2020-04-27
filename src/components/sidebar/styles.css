@@ -3,6 +3,7 @@
     flex-direction: column;
     position: fixed;
     top: 30%;
+    z-index: 99;
 }
 
 .button:hover {
