@@ -1,0 +1,18 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+}
+
+.button {
+    padding: 5px;
+}
+
+.bg-cornflowerblue {
+    background-color: cornflowerblue;
+}
+
+.bg-coral {
+    background-color: azure;
+}

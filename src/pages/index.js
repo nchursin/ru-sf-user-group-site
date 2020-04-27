@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Calendar from "../components/calendar"
+import About from "../components/about"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -10,8 +11,8 @@ const IndexPage = () => (
 
     <SEO title="Home" />
     <h1>Hi people</h1>
-    <p>Salesforce.by проведет вебинар “Process automation using Salesforce Flow”.</p>
-    <p>Now go build something great.</p>
+
+    <About/>
 
     <Calendar/>
 

@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Image from '../image'
-import { TrailLogo } from '../logos'
+import { LogoTrailhead } from '../logos'
 
 import './header.css'
 
@@ -32,9 +32,11 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          Российское Сообщество
+          {/* Российское Сообщество Salesforce */}
+          Salesforce Trailblazer
           <br/>
-          Разработчиков Salesforce
+          Российское Сообщество
+          {/* Разработчиков Salesforce */}
         </Link>
       </h2>
 
@@ -46,7 +48,7 @@ const Header = ({ siteTitle }) => (
           textDecoration: `none`,
         }}
       >
-        <TrailLogo/>
+        <LogoTrailhead/>
       </a>
 
     </div>

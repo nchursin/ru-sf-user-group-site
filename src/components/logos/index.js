@@ -1,5 +1,10 @@
-import TrailLogo from "./trailLogo";
+import Trailhead from "./trailhead";
+import Telegram from "./telegram";
+import Twitter from "./twitter";
+
 
 export {
-    TrailLogo,
+    Trailhead as LogoTrailhead,
+    Telegram as LogoTelegram,
+    Twitter as LogoTwitter,
 }
