@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { LogoTelegram, LogoTwitter } from '../logos'
+import { LogoTelegram, LogoTwitter, LogoYoutube } from '../logos'
 
 import './styles.css'
 
@@ -11,6 +11,9 @@ const Sidebar = () => {
         </a>
         <a href="https://twitter.com/moscowohana" target="_blank">
             <LogoTwitter className="button svg-small" />
+        </a>
+        <a href="https://youtube.com/channel/UClVTWhQKt_xD79rrRBrSAHw" target="_blank">
+            <LogoYoutube className="svg-small" />
         </a>
     </div>
 }
