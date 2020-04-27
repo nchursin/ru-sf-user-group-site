@@ -1,8 +1,9 @@
-import Trailhead from "./trailhead";
-import Telegram from "./telegram";
-import Twitter from "./twitter";
-import Youtube from "./youtube";
+import Trailhead from "./trailhead.svg";
+import Telegram from "./telegram.svg";
+import Twitter from "./twitter.svg";
+import Youtube from "./youtube.svg";
 
+import './styles.css'
 
 export {
     Trailhead as LogoTrailhead,

@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Sidebar className={`sticky`}/>
+      <Sidebar className="sticky"/>
       <div
         style={{
           margin: `0 auto`,
