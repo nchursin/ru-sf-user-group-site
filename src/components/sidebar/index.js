@@ -6,8 +6,12 @@ import './styles.css'
 
 const Sidebar = () => {
     return <div class="sidebar">
-        <LogoTelegram className="bg-cornflowerblue button svg-small" />
-        <LogoTwitter className="bg-coral button svg-small" />
+        <a href="https://t.me/joinchat/AAAAAFirab-TVCOdZEK_kQ" target="_blank">
+            <LogoTelegram className="button bg-cornflowerblue svg-small" />
+        </a>
+        <a href="https://twitter.com/moscowohana" target="_blank">
+            <LogoTwitter className="button svg-small" />
+        </a>
     </div>
 }
 

@@ -8,7 +8,7 @@ const Logo = ({style, className = ''}) => {
         fill: "#fff",
         backgroundColor: "rgb(29, 161, 242)",
         ...style
-    }} className={className}/>
+    }} className={`svg ${className}`}/>
 }
 
 export default Logo;
