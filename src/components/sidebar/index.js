@@ -13,7 +13,7 @@ const Sidebar = () => {
             <LogoTwitter className="button svg-small" />
         </a>
         <a href="https://youtube.com/channel/UClVTWhQKt_xD79rrRBrSAHw" target="_blank">
-            <LogoYoutube className="svg-small" />
+            <LogoYoutube className="button svg-small bg-youtube" />
         </a>
     </div>
 }

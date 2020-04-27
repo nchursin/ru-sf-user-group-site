@@ -5,10 +5,21 @@
     top: 30%;
 }
 
+.button:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100px;
+}
+
 .button {
+    transition: width 0.5s;
     padding: 5px;
 }
 
 .bg-cornflowerblue {
     background-color: cornflowerblue;
+}
+
+.bg-youtube {
+    background-color: rgb(220, 71, 46);;
 }
