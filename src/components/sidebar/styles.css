@@ -41,9 +41,16 @@
 
 @media (max-width: 30em) {
     .sidebar {
+        width: 100%;
         flex-direction: row;
         bottom: 0;
         transition: bottom 0.5s;
+    }
+
+    .sidebar-element {
+        flex: 1;
+        display: flex;
+        justify-content: center;
     }
 
     .sidebar--hidden {
