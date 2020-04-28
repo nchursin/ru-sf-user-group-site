@@ -40,16 +40,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h2>
 
-      <a
-        href="https://trailblazercommunitygroups.com/moscow-ru-developers-group/"
-        target="_blank"
-        style={{
-          color: `black`,
-          textDecoration: `none`,
-        }}
-      >
-        <LogoTrailhead/>
-      </a>
+      <LogoTrailhead/>
 
     </div>
     <div

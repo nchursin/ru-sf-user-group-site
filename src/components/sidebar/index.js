@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import classnames from 'classnames'
 
-import { LogoTelegram, LogoTwitter, LogoYoutube, LogoTrailheadNoSF } from '../logos'
+import { LogoTelegram, LogoTwitter, LogoYoutube, LogoSalesforce } from '../logos'
 
 import './styles.css'
 
@@ -46,7 +46,14 @@ export default class Sidebar extends Component {
                     }
                 )
             }>
-                <a 
+                <a
+                    className="sidebar-element bg-skyblue button"
+                    href="https://trailblazercommunitygroups.com/moscow-ru-developers-group/"
+                    target="_blank"
+                >
+                    <LogoSalesforce className="svg-small" />
+                </a>
+                <a
                     className="sidebar-element bg-cornflowerblue button"
                     href="https://t.me/joinchat/AAAAAFirab-TVCOdZEK_kQ"
                     target="_blank"
