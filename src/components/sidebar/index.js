@@ -11,7 +11,7 @@ export default class Sidebar extends Component {
         super(props);
 
         this.state = {
-            prevScrollpos: window.pageYOffset,
+            prevScrollpos: typeof window !== `undefined` ? window.pageYOffset : 0,
             visible: false
         };
     }
