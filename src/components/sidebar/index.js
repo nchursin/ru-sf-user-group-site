@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import classnames from 'classnames'
 
-import { LogoTelegram, LogoTwitter, LogoYoutube } from '../logos'
+import { LogoTelegram, LogoTwitter, LogoYoutube, LogoTrailheadNoSF } from '../logos'
 
 import './styles.css'
 
@@ -46,14 +46,26 @@ export default class Sidebar extends Component {
                     }
                 )
             }>
-                <a href="https://t.me/joinchat/AAAAAFirab-TVCOdZEK_kQ" target="_blank">
-                    <LogoTelegram className="sidebar-element button bg-cornflowerblue svg-small" />
+                <a 
+                    className="sidebar-element bg-cornflowerblue button"
+                    href="https://t.me/joinchat/AAAAAFirab-TVCOdZEK_kQ"
+                    target="_blank"
+                >
+                    <LogoTelegram className="svg-small" />
                 </a>
-                <a href="https://twitter.com/moscowohana" target="_blank">
-                    <LogoTwitter className="sidebar-element twitter-icon button svg-small" />
+                <a
+                    className="sidebar-element twitter-icon button"
+                    href="https://twitter.com/moscowohana"
+                    target="_blank"
+                >
+                    <LogoTwitter className="svg-small" />
                 </a>
-                <a href="https://youtube.com/channel/UClVTWhQKt_xD79rrRBrSAHw" target="_blank">
-                    <LogoYoutube className="sidebar-element button svg-small bg-youtube" />
+                <a
+                    className="sidebar-element button bg-youtube"
+                    href="https://youtube.com/channel/UClVTWhQKt_xD79rrRBrSAHw"
+                    target="_blank"
+                >
+                    <LogoYoutube className="svg-small" />
                 </a>
             </div>
         )
