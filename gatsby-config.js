@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Российское Сообщество Salesforce`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Moscow Salesforce User Group site`,
+    author: `@nchursin`,
+    calendarName: `nchursintest`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
