@@ -15,7 +15,7 @@ const Calendar = () => {
     return <div
         data-tockify-calendar={data.site.siteMetadata.calendarName}
         data-tockify-component="calendar"
-        data-tockify-view="monthly"
+        data-tockify-view="agenda"
     />
 }
 
