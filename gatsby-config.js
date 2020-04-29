@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/ru-sf-user-group-site",
   siteMetadata: {
     title: `Российское Сообщество Salesforce`,
     description: `Moscow Salesforce User Group site`,
