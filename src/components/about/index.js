@@ -7,7 +7,24 @@ const About = () => {
     return (
         <div>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Мы - группа единомышленников, и развиваем наше сообщество для людей так же интересующихся Salesforce, как и мы. Наше основное направление это разработка, но мы часто затрагиваем темы из других областей, которые интересны админам, консультантам, архитекторам и другим специалистам.
+            </p>
+
+            <p>
+                Вливайся!<br/>
+                - Календарь показывает предстоящие события<br/>
+                - Справа (или внизу для мобильных устройств) есть ссылки на нас в разных соц сетях:<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;- Trailblazer Community Group: для участия в событиях необходимо регистрироваться<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;- Telegram/Twitter: здесь мы общаемся, а так же сообщаем об интересных новостях из мира Salesforce и предстоязи событиях. Присоединяйтесь к нашему чату в Telegram! Ссылка закреплена в Telegram-канале<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;- Youtube: мы выкладываем записи с наших событий! Если что-то пропустили  - всегда можно посмотреть<br/>
+            </p>
+
+            <p>
+                Есть что рассказать? Есть темы для обсуждения на встрече? Хотите поучаствовать в качестве спикера?
+                Остались вопросы? Напишите нам в&nbsp;
+                <a href="https://twitter.com/messages/compose?recipient_id=1234776801177690114" target="_blank">
+                    Twitter DM
+                </a> или Trailblazer Community Groups через кнопку "Contact Us"!
             </p>
         </div>
     )
