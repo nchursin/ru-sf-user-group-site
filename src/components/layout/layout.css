@@ -621,3 +621,9 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+@media (max-width: 30em) {
+  footer {
+    margin-bottom: 50px;
+  }
+}
