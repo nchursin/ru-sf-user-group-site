@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Salesforce Russian Community Site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Nikita Chursin <nchursin.dev@gmail.com>",
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "^2.20.35",
