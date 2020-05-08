@@ -31,7 +31,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && cp CNAME public/CNAME",
     "build:prefix": "gatsby build --prefix-paths",
     "deploy:gh-pages": "yarn build && gh-pages -d public -b master",
     "develop": "gatsby develop",
