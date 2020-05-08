@@ -4,7 +4,7 @@ module.exports = {
     title: `Российское Сообщество Salesforce`,
     description: `Moscow Salesforce User Group site`,
     author: `@nchursin`,
-    calendarName: ``,
+    calendarName: `sfcommunity.ru`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
