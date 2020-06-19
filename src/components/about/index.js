@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { LogoTelegram, LogoTwitter } from "../logos";
 import './styles.css'
 
 const About = () => {

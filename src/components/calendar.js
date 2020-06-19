@@ -11,9 +11,10 @@ const Calendar = () => {
             }
         }
     `)
-
+    
+    // data-tockify-calendar={data.site.siteMetadata.calendarName}
     return <div
-        data-tockify-calendar={data.site.siteMetadata.calendarName}
+        data-tockify-calendar="sf.community.ru"
         data-tockify-component="calendar"
         data-tockify-view="agenda"
     />
