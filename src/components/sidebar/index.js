@@ -69,7 +69,7 @@ export default class Sidebar extends Component {
                 </a>
                 <a
                     className="sidebar-element button bg-youtube"
-                    href="https://youtube.com/channel/UClVTWhQKt_xD79rrRBrSAHw"
+                    href="https://www.youtube.com/channel/UCMaR_qTZ8zrZ3pMc5l5kdvA"
                     target="_blank"
                 >
                     <LogoYoutube className="svg-small" />
